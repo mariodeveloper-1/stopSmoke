@@ -120,5 +120,5 @@ STOPSMOKE/
 ## 👤 Autore
 
 **Mario Balletta**
-* GitHub: [@tuo-username](https://github.com/tuo-username)
-* LinkedIn: [Mario Balletta](https://linkedin.com/in/tuo-profilo)
+* GitHub: [@tuo-username](https://github.com/mariodeveloper-1)
+* 
