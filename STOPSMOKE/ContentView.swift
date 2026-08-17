@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    // Sorgente unica della verità per lo stato dell'applicazione
+    @State private var smokingService = SmokingService()
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        // Carichiamo la TabBar principale a 3 schede (Statistiche | Dashboard | Coach AI)
+        MainTabView(service: smokingService)
     }
 }
 
